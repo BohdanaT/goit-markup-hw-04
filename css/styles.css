@@ -470,6 +470,7 @@ img {
     font-size: 16px;
     line-height: 0.5;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 
     color: var(--white-color);
 }
@@ -491,11 +492,10 @@ img {
 
     background-color: var(--primary-brand);
     border-radius: 50%;
-    color: var(--white-color);
 }
 
 .footer-socials-icon {
-    fill: currentColor;
+    fill: var(--cloud-color);
 }
 
 .footer-socials-link:hover,
@@ -533,6 +533,18 @@ img {
 }
 
 /* Work examples */
+.portfolio-link {
+    display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    box-shadow:
+        0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -542,13 +554,6 @@ img {
 
 .portfolio-item {
     flex-basis: calc((100% - 48px) / 3);
-}
-
-.portfolio-item:hover,
-.portfolio-item:focus {
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-0px 1px 1px rgba(46, 47, 66, 0.16), 
-0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-descr {
