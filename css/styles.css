@@ -350,12 +350,7 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.team-descr {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 0;
-    padding-right: 0;
-
+.team-card {
     background-color: var(--white-color);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -364,7 +359,14 @@ img {
     box-shadow:
         0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);  
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-descr {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0;
+    padding-right: 0; 
 }
 
 .team-list .sub-title {
@@ -387,16 +389,16 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 40px;
     height: 40px;
 
     background-color: var(--primary-brand);
     border-radius: 50%;
-    color: var(--cloud-color);
 }
 
 .socials-icon {
-    fill: currentColor;
+    fill: var(--cloud-color);
 }
 
 .socials-link:hover,
@@ -418,6 +420,7 @@ img {
 
 .customers-link {
     display: flex;
+
     padding: 16px 32px;
 
 
@@ -446,11 +449,13 @@ img {
 
 .footer .logo {
     display: inline-block;
+
     margin-bottom: 16px;
 }
 .footer-text {
     display: block;
     margin-right: auto;
+
     width: 264px;
 
     line-height: 1.5;
@@ -480,6 +485,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 40px;
     height: 40px;
 
@@ -512,6 +518,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
+
     margin-bottom: 72px;
 }
 
